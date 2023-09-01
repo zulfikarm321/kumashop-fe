@@ -1,10 +1,11 @@
-import '@/styles/header.scss';
+import '@/styles/home/header.scss';
 
 import Image from 'next/image';
 
 import BgHero from '@/public/bg-hero.png';
 import HeaderText from './HeaderText';
 import DownloadBox from './DownloadBox';
+import Payments from './Payments';
 
 function Header() {
     return (
@@ -23,6 +24,7 @@ function Header() {
                     />
                 </div>
             </div>
+            <Payments />
         </header>
     );
 }

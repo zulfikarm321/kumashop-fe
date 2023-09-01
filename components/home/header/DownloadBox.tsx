@@ -1,4 +1,4 @@
-import Button from '../Button';
+import Button from '../../Button';
 import Image from 'next/image';
 import AppleIcon from '@/public/icon-apple.svg';
 import GooglePlay from '@/public/icon-google-play.svg';

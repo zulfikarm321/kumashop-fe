@@ -3,8 +3,9 @@ header {
         display: flex;
         align-items: center;
         position: relative;
-        min-height: 90vh;
-        margin-top: 30px;
+        height: 600px;
+        margin-top: 20px;
+        overflow: hidden;
 
         .header-content {
             flex-basis: 50%;
@@ -51,9 +52,36 @@ header {
         .header-image {
             position: absolute;
             flex: 1;
-            top: 0;
+            bottom: 0px;
             right: 0;
             z-index: -2;
+        }
+    }
+
+    .payments {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            max-width: 300px;
+        }
+
+        .payments-list {
+            display: flex;
+            align-items: center;
+            gap: 2vw;
+
+            .payment-box {
+                padding: 10px 20px;
+                display: flex;
+                align-items: center;
+
+                p {
+                    font-weight: 600;
+                    margin-left: 5px;
+                }
+            }
         }
     }
 }
