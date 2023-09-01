@@ -62,8 +62,8 @@ function Header() {
                     <Image
                         src={BgHero}
                         alt="background header"
-                        width={760}
-                        height={670}
+                        width={794}
+                        height={600}
                     />
                 </div>
             </div>
