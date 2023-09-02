@@ -1,10 +1,15 @@
 header {
+    background-color: linear-gradient(
+        178.27deg,
+        #eee6e2 -3.44%,
+        rgba(186, 186, 186, 0) 106.39%
+    );
     .inner {
         display: flex;
         align-items: center;
         position: relative;
         height: 600px;
-        margin-top: 20px;
+        margin-top: 40px;
         overflow: hidden;
 
         .header-content {
@@ -52,7 +57,7 @@ header {
         .header-image {
             position: absolute;
             flex: 1;
-            bottom: 0px;
+            bottom: 0;
             right: 0;
             z-index: -2;
         }

@@ -4,7 +4,7 @@ function FeaturesList() {
     return (
         <div className="features-list">
             {features.map((feature) => (
-                <div className="feature-card">
+                <div className="feature-card" key={feature.title}>
                     <img src={feature.image} alt={feature.title} />
                     <h4>{feature.title}</h4>
                     <p>{feature.description}</p>
