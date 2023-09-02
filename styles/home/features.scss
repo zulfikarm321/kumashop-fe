@@ -1,5 +1,5 @@
 .features {
-    margin-top: 150px;
+    margin: 150px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,6 +13,37 @@
             font-size: 42px;
             font-weight: 500;
             margin-bottom: 20px;
+        }
+    }
+
+    .features-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(393px, 1fr));
+        row-gap: 50px;
+        column-gap: 30px;
+
+        .feature-card {
+            padding: 45px 35px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            transition: all ease-in-out 0.3s;
+            cursor: pointer;
+
+            h4 {
+                margin: 25px 0 15px;
+                font-weight: 500;
+                color: #211b3d;
+                font-size: 24px;
+            }
+
+            p {
+                color: #5b5575;
+            }
+
+            &:hover {
+                border: 1px solid white;
+                background-color: #fbf7f4;
+            }
         }
     }
 }
