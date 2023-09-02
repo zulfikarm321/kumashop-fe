@@ -70,3 +70,24 @@ export const productShowcaseElectonics: any[] = [
         colorsImage: '/products/product-watch-colors.png'
     }
 ];
+
+export const reviewsData: any[] = [
+    {
+        review: '“Kumashop is an e-commerce platform that is very easy to use and trusted. They offer a variety of features that can help you easily build and manage your online store, from attractive template options to a safe and reliable payment system.”',
+        userImage: '/avatar/avatar-jane-smith.png',
+        userName: 'Jane Smith',
+        userJob: 'Product Marketing'
+    },
+    {
+        review: '“Kumashop offers a wide selection of quality products from various categories, from fashion to electronics. All products offered by Kumashop have gone through strict selection to ensure quality.”',
+        userImage: '/avatar/avatar-tom-williams.png',
+        userName: 'Tom Williams',
+        userJob: 'Affiiate'
+    },
+    {
+        review: '“Kumashop offers competitive prices and attractive discounts for the products they sell. You can compare the price of the product you want with the prices offered by other sellers on the Kumashop platform.”',
+        userImage: '/avatar/avatar-michael-brown.png',
+        userName: 'Michael Brown',
+        userJob: 'Content Creator'
+    }
+];

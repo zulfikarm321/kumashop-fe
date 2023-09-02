@@ -3,7 +3,7 @@ import React from 'react';
 function FeaturesHead() {
     return (
         <div className="features-header">
-            <h3 className="text-primary">
+            <h3 className="section-header">
                 Welcome to our e-commerce site, the best place to fulfill all
                 your shopping needs!
             </h3>
